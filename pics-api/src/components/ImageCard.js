@@ -7,7 +7,7 @@ class ImageCard extends React.Component {
     this.state = { spans: 0 };
 
     this.imageRef = React.createRef();
-  }
+  };
 
   componentDidMount() {
     this.imageRef.current.addEventListener('load', this.setSpans);
@@ -29,7 +29,7 @@ class ImageCard extends React.Component {
         <img ref={this.imageRef} alt={description} src={urls.regular} />
       </div>
     );
-  }
+  };
 }
 
 export default ImageCard;
