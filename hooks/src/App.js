@@ -18,7 +18,7 @@ const items = [
   {
     title: 'Prueba',
     content: 'Probando probando... :)',
-  },
+  }
 ];
 
 const options = [
@@ -33,12 +33,12 @@ const options = [
   {
     label: 'This is Blue',
     value: 'blue',
-  },
+  }
 ];
 
 export default () => {
   const [selected, setSelected] = useState(options[0]);
-
+  
   return (
     <div>
       <Header />
@@ -61,4 +61,5 @@ export default () => {
       </Route>
     </div>
   );
+
 };

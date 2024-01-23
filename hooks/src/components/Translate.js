@@ -18,7 +18,7 @@ const options = [
   {
     label: 'Dutch',
     value: 'nl',
-  },
+  }
 ];
 
 const Translate = () => {
